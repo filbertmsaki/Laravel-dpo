@@ -19,10 +19,7 @@ class DpoServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'database/migrations/2022_09_16_025954_create_dpos_table.php' => database_path(now()->format('Y_m_d_His').'_create_dpos_table.php')
         ]);
-       $this->loadRoutesFrom(__DIR__.'/routes/web.php');
-       $this->loadViewsFrom(__DIR__.'/resources/views','dpo');
-       $this->loadMigrationsFrom(__DIR__.'/database/migrations');
-       $this->mergeConfigFrom(__DIR__.'/config/laravel-dpo.php','laravel-dpo');
+       
     }
     public function register()
     {
