@@ -1,0 +1,25 @@
+{
+    "name": "femlabs/laravel-dpo",
+    "description": "Package to make online payment using DPO Group",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filbert Msaki",
+            "email": "filymsaki@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Femlabs\\Dpo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Femlabs\\Dpo\\DpoServiceProvider"
+            ]
+        }
+    }
+}
