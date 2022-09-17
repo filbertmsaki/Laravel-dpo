@@ -48,7 +48,7 @@ You can choose either to save the response in the database or to make direct pay
 
 => Go Direct to DPO payment page
 
-    return $dpo->directPayment($data);
+    return $dpo->directPaymentPage($data);
 
 =>  If you preffer to save details the follow the steps below.
 
