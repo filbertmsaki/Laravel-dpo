@@ -23,5 +23,6 @@ class DpoServiceProvider extends ServiceProvider
     }
     public function register()
     {
+        //
     }
 }
